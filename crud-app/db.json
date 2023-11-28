@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "alunos": [
+    {
+      "Num": 2,
+      "Nome": "Gustavo Pereira Franco da Silva",
+      "Email": "gustavopereirafranco@gmail.com",
+      "id": 1
+    },
+    {
+      "Num": 10,
+      "Nome": "Matheus Henrique Brum Vargas",
+      "Email": "MatHBV@outlook.com",
+      "id": 2
+    },
+    {
+      "Num": 3,
+      "Nome": "AAAAAAAA",
+      "Email": "asfdsfsd@#fsdfsdffsdf.com",
+      "id": 3
+    }
+  ]
+}

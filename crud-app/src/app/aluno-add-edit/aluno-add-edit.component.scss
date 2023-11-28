@@ -1,0 +1,30 @@
+.row{
+    display: flex;
+    gap: 10px;
+}
+
+.content{
+    padding-top: 10px;
+}
+
+#email {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#id {
+    width: 20%;
+    box-sizing: border-box;
+}
+
+#nome {
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.action{
+    padding: 0px 25px 20px;
+    button{
+        flex: 1;
+    }
+}

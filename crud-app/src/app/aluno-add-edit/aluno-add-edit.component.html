@@ -1,0 +1,27 @@
+<div mat-dialog-title>
+    <h1>Formulário de Cadastro</h1>
+</div>
+<form [formGroup]="alunoform" (ngSubmit)="onFormSubmit()">
+    <div mat-dialog-content class="content">
+        <div class="row">
+        <mat-form-field appearance="outline" id="id">
+            <mat-label>Nº</mat-label>
+            <input matInput type="number" min="1" required formControlName="Num">
+        </mat-form-field>
+        <mat-form-field appearance="outline" id="nome">
+            <mat-label>Nome</mat-label>
+            <input matInput type="text" required formControlName="Nome">
+        </mat-form-field>
+        </div>
+        <div class="row" >
+            <mat-form-field appearance="outline" id="email">
+            <mat-label>Email</mat-label>
+            <input matInput type="email" placeholder="exemplo@exemplo.com" required formControlName="Email">
+            </mat-form-field>
+        </div>
+    </div>
+    <div mat-dialog-actions class="action">
+        <button mat-raised-button type="button" [mat-dialog-close]="false">Cancelar</button>
+        <button mat-raised-button color="primary" type="submit">{{data ? 'Atualizar': 'Salvar'}}</button>
+    </div>
+</form>
